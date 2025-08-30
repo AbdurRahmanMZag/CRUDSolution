@@ -11,7 +11,7 @@ namespace Services
         {
             _countries = new List<Country> ( );
         }
-        public CountryResponse AddCountry ( CountryAddRequest? countryAddRequest )
+        public CountryResponse? AddCountry ( CountryAddRequest? countryAddRequest )
         {
             //Check if "countryAddRequest" is not null
             if (countryAddRequest == null)
